@@ -25,4 +25,4 @@ password=""
 for char in password_list:
     password= password+char
 
-print(f"Your password is{password}")
+print(f"Your password is{''.join(random.sample(password,len(password)))}")
